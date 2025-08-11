@@ -1,0 +1,51 @@
+1. Slow System Performance:
+   - Description: System runs slower than usual, affecting application response times.
+   - Common Causes: Low memory availability, high CPU usage, too many startup applications, malware infections.
+   - Resolution Steps:
+     - Press Ctrl + Shift + Esc to open Task Manager and check CPU/memory usage.
+     - Close unnecessary applications and background processes.
+     - Run a malware scan using Windows Defender or approved antivirus software.
+     - Clear temporary files using Disk Cleanup (cleanmgr).
+     - Restart the system.
+   - Escalation: Escalate if performance issues persist after cleanup and resource optimization.
+
+2. Frequent System Crashes:
+   - Description: System unexpectedly shuts down or restarts.
+   - Common Causes: Faulty hardware drivers, overheating, corrupted system files, hardware failure.
+   - Resolution Steps:
+     - Update all device drivers via Device Manager.
+     - Check system temperature using built-in BIOS/UEFI tools or third-party apps.
+     - Run `sfc /scannow` in Command Prompt (Admin).
+     - Ensure proper ventilation and remove dust from hardware components.
+     - Restart and monitor stability.
+   - Escalation: Escalate to hardware support if crashes persist or BSOD codes indicate hardware failure.
+
+3. System Restart Loop:
+   - Description: Computer repeatedly restarts without reaching the desktop.
+   - Common Causes: Boot configuration corruption, Windows update failure, faulty hardware.
+   - Resolution Steps:
+     - Boot into Safe Mode (F8 or Shift + Restart).
+     - Uninstall recent updates via Control Panel → Programs → View installed updates.
+     - Run Startup Repair from Windows Recovery Environment.
+     - Check boot order in BIOS/UEFI.
+   - Escalation: Escalate if startup repair fails or hardware diagnostics detect a fault.
+
+4. Application Not Responding:
+   - Description: An application becomes unresponsive during use.
+   - Common Causes: Software bugs, insufficient memory, compatibility issues.
+   - Resolution Steps:
+     - Open Task Manager, select the application, and click “End Task.”
+     - Restart the application.
+     - Update the application to the latest version.
+     - Check for OS updates.
+   - Escalation: Escalate to software vendor support if crashes happen consistently.
+
+5. Blue Screen of Death (BSOD):
+   - Description: Windows displays a blue error screen with a stop code.
+   - Common Causes: Faulty drivers, hardware issues, corrupted system files.
+   - Resolution Steps:
+     - Note the stop code for troubleshooting.
+     - Update or roll back drivers.
+     - Run memory diagnostics (mdsched.exe).
+     - Run `chkdsk /f` to scan disk for errors.
+   - Escalation: Escalate to IT hardware team if hardware diagnostics indicate failure.

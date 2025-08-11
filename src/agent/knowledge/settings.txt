@@ -1,0 +1,45 @@
+1. Incorrect System Time/Date:
+   - Description: System clock displays wrong time or date.
+   - Common Causes: Misconfigured time zone, disabled automatic time sync, depleted CMOS battery.
+   - Resolution Steps:
+     - Open Date & Time settings.
+     - Enable “Set time automatically.”
+     - Select correct time zone.
+     - Replace CMOS battery if settings reset on reboot.
+   - Escalation: Escalate if syncing service fails consistently.
+
+2. Display Resolution Issues:
+   - Description: Screen resolution appears incorrect.
+   - Common Causes: Outdated graphics drivers, incorrect display settings.
+   - Resolution Steps:
+     - Right-click desktop → Display settings.
+     - Select “Recommended” resolution.
+     - Update graphics driver from Device Manager.
+   - Escalation: Escalate to hardware team if monitor issue suspected.
+
+3. Audio Not Working:
+   - Description: No sound output from speakers or headphones.
+   - Common Causes: Muted volume, incorrect output device, faulty drivers.
+   - Resolution Steps:
+     - Check volume and mute settings.
+     - Right-click speaker icon → Select correct output device.
+     - Update/reinstall audio drivers.
+   - Escalation: Escalate to hardware support if audio chip failure suspected.
+
+4. Language Settings Incorrect:
+   - Description: System language differs from preferred language.
+   - Common Causes: Wrong language pack installed.
+   - Resolution Steps:
+     - Go to Settings → Time & Language → Language.
+     - Add preferred language and set as default.
+     - Restart system.
+   - Escalation: Escalate if language pack download fails repeatedly.
+
+5. Power Settings Not Saving:
+   - Description: Power plan changes revert after restart.
+   - Common Causes: Corrupted power profile, third-party interference.
+   - Resolution Steps:
+     - Run `powercfg -restoredefaultschemes` in Command Prompt.
+     - Save changes in Control Panel → Power Options.
+     - Disable conflicting power management software.
+   - Escalation: Escalate to IT admin if power settings reset persists.

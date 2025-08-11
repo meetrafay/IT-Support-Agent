@@ -1,0 +1,43 @@
+1. Clear Browser Cache:
+   - Description: Removing stored browser data to resolve loading issues.
+   - Common Causes: Corrupted cache, outdated files.
+   - Resolution Steps:
+     - Open browser settings.
+     - Navigate to Clear Browsing Data.
+     - Select “Cached images and files” and click “Clear.”
+   - Escalation: Escalate if issues persist after cache clearing.
+
+2. Software Update Failure:
+   - Description: Applications fail to update.
+   - Common Causes: Network interruptions, corrupted installation files.
+   - Resolution Steps:
+     - Restart system.
+     - Check internet connection.
+     - Reinstall application if update fails.
+   - Escalation: Escalate to vendor support if persistent.
+
+3. Printer Not Responding:
+   - Description: Printer fails to print or connect.
+   - Common Causes: Driver issues, network connectivity problems.
+   - Resolution Steps:
+     - Restart printer and PC.
+     - Check cables and network connection.
+     - Reinstall printer drivers.
+   - Escalation: Escalate to hardware team if printer hardware suspected faulty.
+
+4. File Not Opening:
+   - Description: File fails to open in default program.
+   - Common Causes: Corrupted file, unsupported format.
+   - Resolution Steps:
+     - Try opening in alternate program.
+     - Repair or reinstall associated software.
+   - Escalation: Escalate if important file is business-critical and no backup exists.
+
+5. Update Drivers:
+   - Description: Ensuring hardware functions correctly by installing latest drivers.
+   - Common Causes: Outdated or missing drivers.
+   - Resolution Steps:
+     - Open Device Manager.
+     - Right-click hardware → Update driver.
+     - Search automatically for updates.
+   - Escalation: Escalate if driver conflicts occur after update.

@@ -1,0 +1,48 @@
+1. No Internet Connection:
+   - Description: Device cannot connect to the internet.
+   - Common Causes: Router/modem issues, ISP outages, misconfigured network settings.
+   - Resolution Steps:
+     - Restart router and modem.
+     - Check other devices for internet connectivity.
+     - Run Windows Network Troubleshooter.
+     - Check ISP service status online.
+   - Escalation: Escalate to ISP if outage is confirmed or connection issues persist.
+
+2. Slow Wi-Fi Speed:
+   - Description: Internet speed is significantly below expected performance.
+   - Common Causes: Signal interference, too many connected devices, outdated router firmware.
+   - Resolution Steps:
+     - Move closer to the router.
+     - Disconnect unused devices from the network.
+     - Update router firmware via manufacturer’s portal.
+     - Run a speed test and compare with your plan.
+   - Escalation: Escalate to network administrator if speeds remain slow despite optimizations.
+
+3. VPN Connection Failure:
+   - Description: VPN cannot establish a secure tunnel.
+   - Common Causes: Incorrect credentials, firewall restrictions, server downtime.
+   - Resolution Steps:
+     - Verify username/password.
+     - Restart VPN client.
+     - Check firewall/antivirus settings.
+     - Try a different VPN server.
+   - Escalation: Escalate to security/network team if VPN servers are down.
+
+4. Frequent Disconnections:
+   - Description: Internet disconnects intermittently.
+   - Common Causes: ISP instability, loose cable connections, router overheating.
+   - Resolution Steps:
+     - Check physical cables for damage.
+     - Reboot router and modem.
+     - Place router in a well-ventilated area.
+     - Contact ISP for line checks.
+   - Escalation: Escalate if issue persists after ISP confirmation of no fault.
+
+5. IP Address Conflict:
+   - Description: Two devices share the same IP, causing network errors.
+   - Common Causes: Static IP duplication, DHCP misconfiguration.
+   - Resolution Steps:
+     - Run `ipconfig /release` and `ipconfig /renew`.
+     - Restart router.
+     - Assign a unique static IP if needed.
+   - Escalation: Escalate to network admin if conflicts reoccur frequently.
